@@ -10,6 +10,7 @@ import { AuthorsComponent } from './authors/authors.component';
 import { TitleCaseComponent } from './titlecase/titlecase.component';
 import { HomeComponent } from './home/home.component';
 import { TitlePipe } from './titlecase.pipe';
+import { ZippyComponent } from './zippy/zippy.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TitlePipe } from './titlecase.pipe';
     AuthorsComponent,
     TitleCaseComponent,
     HomeComponent,
-    TitlePipe
+    TitlePipe,
+    ZippyComponent
   ],
   imports: [
     BrowserModule,
